@@ -38,7 +38,7 @@ module "networking" {
 //compute
 
 module "compute" {
-  source = "./modules/Compute"
+  source = "./modules/compute"
 
   project_name          = var.project_name
   environment           = var.environment
