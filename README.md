@@ -33,3 +33,19 @@ terraform output alb_dns_name
 
 8. To remove all provisioned resources
 terraform destroy
+
+#Architecture diagram is placed in diagrams folder
+
+## Pipeline
+
+A GitHub Actions pipeline is configured.
+The pipeline performs:
+Final Validation - `terraform validate`
+
+## How to Run the Pipeline
+The pipeline is implemented using GitHub Actions and runs automatically.
+
+### Steps to Trigger
+1. Make any change to the repository
+2. Commit and push
+
