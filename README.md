@@ -52,3 +52,7 @@ The pipeline is implemented using GitHub Actions and runs automatically.
 ### Cost Note
 
 The estimated cost exceeds the ≤ AUD 20/month target due to the use of a NAT Gateway and always-on multi-AZ infrastructure. This design prioritises high availability and security.
+
+### AWS
+
+AWS was chosen for its straightforward ALB and Auto Scaling integration, strong Terraform support, and faster implementation of a highly available, self-healing web tier.
